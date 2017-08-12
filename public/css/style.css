@@ -9,3 +9,52 @@
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
+
+.test {
+  color: red;
+  background-color: blue;
+  margin-right: 500px;
+  width: 600px;
+}
+#form-group{
+  margin-right: 400px;
+  margin-left: 400px;
+}
+.ti1{
+  margin-left: 500px;
+}
+.ti2{
+  margin-left: 400px;
+}
+
+.ti3{
+  margin-left: 400px;
+}
+.btn{
+  margin-left: 400px;
+}
+.f1{
+  background-color: #CE93D8;
+  height: 80px;
+  color: #fff;
+}
+.wc{
+  width: 450px;
+  height: 350px;
+  background-color: #fff;
+  margin-left: 59%;
+  margin-top: -100px;
+  border-style: solid;
+  border-width: 2px;
+}
+.btn-primary1{
+  background-color: red;
+  color: white;
+
+}
+.btn-primary2{
+  background-color: blue;
+  color: white;
+  margin-left: 50px;
+
+}

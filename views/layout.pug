@@ -4,10 +4,6 @@ html
 		title testapp
 		link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
 		link(rel='stylesheet' href='/css/style.css')
-		style.
-			.body{
-			background-color:blue;
-			}
 
 	body
 		nav.navbar.navbar-inverse
@@ -36,7 +32,7 @@ html
 							li
 								a(href='/users/login') Login
 
-		.containet
+		.container
 			!= messages('message', locals)
 			if errors
 				each error, i in errors
@@ -44,7 +40,7 @@ html
 			block content
 			br
 			hr
-			footer
+			footer.f1
 				p copyright &copy; 2017
 		script(src='/bower_components/jquery/dist/jquery.js')
 		script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
